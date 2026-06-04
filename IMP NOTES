@@ -1,0 +1,10 @@
+There are certain keywords in C where , the meaning is only known by the compiler, we should avoid using such keywords as our variable.
+there are total 32 keywords in C.
+ You can use float v_area = pow(v_side, 2); , for power fn (include <math.io)
+%.2f gives output upto 2 decimals
+int when operates with float , output is alywas float
+C can only convert small data type to big data type 
+For eg int = 2 byte , float = 4 byte 
+int to float is possible by compiler and is called implicit conversion whereas converse is not possible , thus called explicit conversion.
+for explicit conversion we force the compiler . 
+char stars = '**' is wrong due to very big storage of ** and explicit conversion.
