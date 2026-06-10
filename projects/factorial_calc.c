@@ -1,4 +1,5 @@
 // Factorial of a number
+/*
 #include<stdio.h>
 long long main() {
     long long n,v_fact = 1;
@@ -11,5 +12,25 @@ long long main() {
     }
     printf("Factorial is : %lld \n", v_fact);
 }
+*/
 
 // due to integer overflow , int is unable to store large character size , thus we use long long.
+
+// Same code using recursion
+#include<stdio.h>
+int product(int n);
+
+int main() {
+    int n;
+    printf("Enter a number : \n");
+    scanf("%d", &n);
+    printf("Factorial is %d", product(n));
+}
+
+int product(int n) {
+    if (n == 1) {
+        return 1;
+    }
+    int pm1 = product(n - 1);
+    int p = pm1 * n;
+}
