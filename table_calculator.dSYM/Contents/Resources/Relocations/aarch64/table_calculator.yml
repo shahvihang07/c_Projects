@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vihang/Documents/codes/c_Projects/table_calculator'
+relocations:     []
+...

@@ -3,6 +3,7 @@
 
 
 #include<stdio.h>
+#include<math.h>
 int main() {
     int v_n,v_last;
     printf("enter a number : ");
