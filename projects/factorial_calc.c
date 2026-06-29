@@ -33,4 +33,5 @@ int product(int n) {
     }
     int pm1 = product(n - 1);
     int p = pm1 * n;
+    return p;
 }

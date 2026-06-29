@@ -1,3 +1,4 @@
+// Sum of first n natural numbers using recursion
 #include<stdio.h>
 int sum(int n);
 
@@ -16,5 +17,6 @@ int sum(int n) {
     }
     int sumNM1 = sum(n-1);
     int sumN = sumNM1 + n;
+    return sumN;
 }
 
