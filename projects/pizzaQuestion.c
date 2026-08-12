@@ -8,13 +8,12 @@ so they carefully (and optimally) choose how many slices to eat on their turns. 
 #include<stdio.h>
 int main() {
     int n;
-    printf("Please Enter number of slice : \n");
     scanf("%d", &n);
 if (n % 3 == 0)
 {
-    printf("Last slice will be eaten by BoB");
+    printf("Bob");
 } else {
-    printf("Last slice will be eaten by Alex");
+    printf("Alex");
 }
 return 0;
 }
